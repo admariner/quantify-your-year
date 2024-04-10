@@ -102,9 +102,10 @@ class App extends Component {
             </span>
             {setting.dataSource &&
               <span className="link">Powered by
+              {setting.dataSource.url != null ?
                 <a href={setting.dataSource.url} target="_blank" rel="noopener noreferrer">
                   {setting.dataSource.name}
-                </a>
+                </a> : ` ${setting.dataSource.name}`}
               </span>
             }
           </div>

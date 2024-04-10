@@ -1,8 +1,8 @@
 {
-    "year": 2020,
+    "year": 2021,
     "author": "tanyofish",
     "gender": "female",
-    "topic": "swimming at pool",
+    "topic": "swimming",
     "pastVerb": "swam",
     "type": "distance",
     "metric": "yard",
@@ -11,5 +11,8 @@
     "abbr": "yd",
     "alt_abbr": "m",
     "considerFrequency": true,
-    "color": "purple"
+    "color": "purple",
+    "dataSource": {
+        "name": "Apple Health"
+    }
 }
